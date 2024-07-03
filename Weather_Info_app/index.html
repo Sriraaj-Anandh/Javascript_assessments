@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Info App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="loadPreviousCities()">
+    <div class="container">
+        <h1>Weather Info App</h1>
+        <form id="weatherForm">
+            <input type="text" id="city" placeholder="Enter city name" required>
+            <button type="submit" onclick="getWeather(event)">Get Weather</button>
+        </form>
+        <div id="message"></div>
+        <div id="weatherInfo"></div>
+        <h2>Previous Searches</h2>
+        <ul id="previousCities"></ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

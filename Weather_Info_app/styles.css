@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #444;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #555;
+    margin-top: 30px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input, button {
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    width: 90%;
+    max-width: 300px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #5cb85c;
+    outline: none;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+#message {
+    color: #d9534f;
+    margin-top: 20px;
+    padding: 10px;
+    background: #f2dede;
+    border: 1px solid #ebccd1;
+    border-radius: 5px;
+}
+
+#weatherInfo {
+    margin: 20px 0;
+    padding: 20px;
+    background: #dff0d8;
+    border: 1px solid #d6e9c6;
+    border-radius: 5px;
+}
+
+#previousCities {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#previousCities li {
+    margin: 5px 0;
+    cursor: pointer;
+    color: #337ab7;
+    text-decoration: underline;
+}
+
+#previousCities li:hover {
+    color: #23527c;
+}
